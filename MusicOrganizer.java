@@ -63,7 +63,7 @@ public class MusicOrganizer
             do{
                 System.out.println(files.get(index));
                 index++;
-            }while(index == files.size());
+            }while(index != files.size());
         }
         else
         {
